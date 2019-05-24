@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29676C4821D4A9F500DB54AC /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29676C4721D4A9F500DB54AC /* UIColor+.swift */; };
+		29CB911C21B66C72003E03FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CB911B21B66C72003E03FE /* AppDelegate.swift */; };
+		29CB912321B66C73003E03FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29CB912221B66C73003E03FE /* Assets.xcassets */; };
+		29CB912621B66C73003E03FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CB912421B66C73003E03FE /* LaunchScreen.storyboard */; };
+		29FC6A7521ED7B4E00122B19 /* DesignableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC6A7421ED7B4D00122B19 /* DesignableUI.swift */; };
+		7E056CC7228E6EB6004D58CB /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E056CC6228E6EB6004D58CB /* CalculatorViewModel.swift */; };
+		7E056CCD22925FEB004D58CB /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E056CCC22925FEB004D58CB /* CalculatorViewController.swift */; };
+		7E056CCF22926000004D58CB /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E056CCE22926000004D58CB /* Calculator.storyboard */; };
+		7E200875224C65AE000DA845 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E200874224C65AE000DA845 /* Colors.xcassets */; };
+		7E6E32FC229528D400CAE93B /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E32FB229528D400CAE93B /* CalculatorModel.swift */; };
+		7E6E3300229640B100CAE93B /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E32FF229640B100CAE93B /* UIButton+.swift */; };
+		7EA44A42228A9A260034929A /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA44A41228A9A260034929A /* R.generated.swift */; };
+		BDE73C7AB50CBD78C13E9F94 /* Pods_RxCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C98E14F24D14FBADC7A8558 /* Pods_RxCalculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29478A5821B8CE2F004D92E1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		296A60AC21BA402300E0ECA4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A06770879EE4341C6CC5245 /* Pods-RxCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCalculator.debug.xcconfig"; path = "Target Support Files/Pods-RxCalculator/Pods-RxCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		29478AAB21B8E6C1004D92E1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		29676C4721D4A9F500DB54AC /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		29CB911821B66C72003E03FE /* RxCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CB911B21B66C72003E03FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29CB912221B66C73003E03FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29CB912521B66C73003E03FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29CB912721B66C73003E03FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29FC6A7421ED7B4D00122B19 /* DesignableUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUI.swift; sourceTree = "<group>"; };
+		7E056CC6228E6EB6004D58CB /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		7E056CCC22925FEB004D58CB /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		7E056CCE22926000004D58CB /* Calculator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		7E200874224C65AE000DA845 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7E6E32FB229528D400CAE93B /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		7E6E32FF229640B100CAE93B /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		7EA44A41228A9A260034929A /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		8C98E14F24D14FBADC7A8558 /* Pods_RxCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F066EBA696002510CF7D3E4F /* Pods-RxCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCalculator.release.xcconfig"; path = "Target Support Files/Pods-RxCalculator/Pods-RxCalculator.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CB911521B66C72003E03FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE73C7AB50CBD78C13E9F94 /* Pods_RxCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D5E93CDF0272AF85DCDF8C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A06770879EE4341C6CC5245 /* Pods-RxCalculator.debug.xcconfig */,
+				F066EBA696002510CF7D3E4F /* Pods-RxCalculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		29478A3021B8BB82004D92E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E056CCE22926000004D58CB /* Calculator.storyboard */,
+				7E056CCC22925FEB004D58CB /* CalculatorViewController.swift */,
+				7E056CC6228E6EB6004D58CB /* CalculatorViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29676BEB21CCB60800DB54AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E6E32FB229528D400CAE93B /* CalculatorModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29676BFB21D375A400DB54AC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				29676C4721D4A9F500DB54AC /* UIColor+.swift */,
+				7E6E32FF229640B100CAE93B /* UIButton+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		29907A3C21C1043B0076E501 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				29FC6A7421ED7B4D00122B19 /* DesignableUI.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		29CB910F21B66C72003E03FE = {
+			isa = PBXGroup;
+			children = (
+				29CB911A21B66C72003E03FE /* RxCalculator */,
+				29CB911921B66C72003E03FE /* Products */,
+				0D5E93CDF0272AF85DCDF8C0 /* Pods */,
+				693993110BA981B67994141E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29CB911921B66C72003E03FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CB911821B66C72003E03FE /* RxCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CB911A21B66C72003E03FE /* RxCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				7EA44A41228A9A260034929A /* R.generated.swift */,
+				29CB911B21B66C72003E03FE /* AppDelegate.swift */,
+				29478A3021B8BB82004D92E1 /* View */,
+				29676BEB21CCB60800DB54AC /* Model */,
+				29907A3C21C1043B0076E501 /* Utility */,
+				29676BFB21D375A400DB54AC /* Extension */,
+				29CB912221B66C73003E03FE /* Assets.xcassets */,
+				7E200874224C65AE000DA845 /* Colors.xcassets */,
+				29CB912421B66C73003E03FE /* LaunchScreen.storyboard */,
+				29CB912721B66C73003E03FE /* Info.plist */,
+			);
+			path = RxCalculator;
+			sourceTree = "<group>";
+		};
+		693993110BA981B67994141E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29478AAB21B8E6C1004D92E1 /* NotificationCenter.framework */,
+				8C98E14F24D14FBADC7A8558 /* Pods_RxCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CB911721B66C72003E03FE /* RxCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CB914021B66C73003E03FE /* Build configuration list for PBXNativeTarget "RxCalculator" */;
+			buildPhases = (
+				318E30E0F5DB7A02CA039394 /* [CP] Check Pods Manifest.lock */,
+				29FC6A5A21E6C67E00122B19 /* R.swift */,
+				29CB911421B66C72003E03FE /* Sources */,
+				29CB911521B66C72003E03FE /* Frameworks */,
+				29CB911621B66C72003E03FE /* Resources */,
+				2F4080CBF11C3B870A2A9C93 /* [CP] Embed Pods Frameworks */,
+				29CB914A21B66D3B003E03FE /* swiftlint */,
+				29478A5821B8CE2F004D92E1 /* Embed App Extensions */,
+				296A60AC21BA402300E0ECA4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxCalculator;
+			productName = safeRoom;
+			productReference = 29CB911821B66C72003E03FE /* RxCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CB911021B66C72003E03FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "hir-suzuki";
+				TargetAttributes = {
+					29CB911721B66C72003E03FE = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 29CB911321B66C72003E03FE /* Build configuration list for PBXProject "RxCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29CB910F21B66C72003E03FE;
+			productRefGroup = 29CB911921B66C72003E03FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CB911721B66C72003E03FE /* RxCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29CB911621B66C72003E03FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CB912621B66C73003E03FE /* LaunchScreen.storyboard in Resources */,
+				7E056CCF22926000004D58CB /* Calculator.storyboard in Resources */,
+				29CB912321B66C73003E03FE /* Assets.xcassets in Resources */,
+				7E200875224C65AE000DA845 /* Colors.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29CB914A21B66D3B003E03FE /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z ${CI+x} ];then\nif which swiftlint >/dev/null; then\nswiftlint autocorrect --config \"${SRCROOT}/.swiftlint.yml\"\nswiftlint lint --config \"${SRCROOT}/.swiftlint.yml\"\nelse\necho \"error: SwiftLint does not exist, brew install swiftlint\"\nfi\nfi;\n";
+		};
+		29FC6A5A21E6C67E00122B19 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(TEMP_DIR)/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(SRCROOT)/RxCalculator/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -e \"$SRCROOT/RxCalculator/R.generated.swift\" ]; then\necho 'remove R.generated.swift'\nrm \"$SRCROOT/RxCalculator/R.generated.swift\"\nfi\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/RxCalculator/R.generated.swift\"\n";
+		};
+		2F4080CBF11C3B870A2A9C93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxCalculator/Pods-RxCalculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UIGradient/UIGradient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIGradient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxCalculator/Pods-RxCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		318E30E0F5DB7A02CA039394 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CB911421B66C72003E03FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6E3300229640B100CAE93B /* UIButton+.swift in Sources */,
+				7E056CC7228E6EB6004D58CB /* CalculatorViewModel.swift in Sources */,
+				7E6E32FC229528D400CAE93B /* CalculatorModel.swift in Sources */,
+				7E056CCD22925FEB004D58CB /* CalculatorViewController.swift in Sources */,
+				7EA44A42228A9A260034929A /* R.generated.swift in Sources */,
+				29FC6A7521ED7B4E00122B19 /* DesignableUI.swift in Sources */,
+				29676C4821D4A9F500DB54AC /* UIColor+.swift in Sources */,
+				29CB911C21B66C72003E03FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29CB912421B66C73003E03FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29CB912521B66C73003E03FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29CB913E21B66C73003E03FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29CB913F21B66C73003E03FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29CB914121B66C73003E03FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A06770879EE4341C6CC5245 /* Pods-RxCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMCJCA8J2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Crashlytics",
+					"$(PROJECT_DIR)/Pods/Crashlytics/iOS",
+					"$(PROJECT_DIR)/Pods/Fabric",
+					"$(PROJECT_DIR)/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/Pods/FirebaseABTesting/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebasePerformance/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseRemoteConfig/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/Pods/Reveal-SDK/RevealServer-20/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RxCalculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Libraries",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		29CB914221B66C73003E03FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F066EBA696002510CF7D3E4F /* Pods-RxCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JMCJCA8J2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Crashlytics",
+					"$(PROJECT_DIR)/Pods/Crashlytics/iOS",
+					"$(PROJECT_DIR)/Pods/Fabric",
+					"$(PROJECT_DIR)/Pods/Fabric/iOS",
+					"$(PROJECT_DIR)/Pods/FirebaseABTesting/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebasePerformance/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseRemoteConfig/Frameworks",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)/Pods/Reveal-SDK/RevealServer-20/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/RxCalculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Libraries",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CB911321B66C72003E03FE /* Build configuration list for PBXProject "RxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CB913E21B66C73003E03FE /* Debug */,
+				29CB913F21B66C73003E03FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CB914021B66C73003E03FE /* Build configuration list for PBXNativeTarget "RxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CB914121B66C73003E03FE /* Debug */,
+				29CB914221B66C73003E03FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CB911021B66C72003E03FE /* Project object */;
+}

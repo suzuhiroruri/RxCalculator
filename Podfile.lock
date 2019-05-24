@@ -1,0 +1,41 @@
+PODS:
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SwiftLint (0.32.0)
+  - UIGradient (1.3.1)
+
+DEPENDENCIES:
+  - R.swift (~> 5.0)
+  - RxCocoa (~> 4.4.0)
+  - RxSwift (~> 4.4.0)
+  - SwiftLint
+  - UIGradient (~> 1.3.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - R.swift
+    - R.swift.Library
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SwiftLint
+    - UIGradient
+
+SPEC CHECKSUMS:
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  UIGradient: 9c7041327bf202b09aab2db7c33fb41f768b19ea
+
+PODFILE CHECKSUM: d2cb1762d9e71e04fca68f41d9a8fa2b69c03e73
+
+COCOAPODS: 1.6.1
